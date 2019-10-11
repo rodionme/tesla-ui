@@ -2,12 +2,8 @@ import React from 'react';
 import './colors.css';
 import './app.css';
 
-import { Icon, ICONS } from '../Icon';
+const App = () => {
+  return <div>App</div>;
+};
 
-export default function App() {
-  return (
-    <div>
-      <Icon name={ICONS.CHARGING_STATION}></Icon>
-    </div>
-  );
-}
+export default App;
