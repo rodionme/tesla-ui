@@ -1,3 +1,5 @@
 .main-sidebar {
+  display: flex;
+  flex-direction: column;
   width: calc(580px * var(--coef));
 }
