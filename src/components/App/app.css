@@ -12,11 +12,6 @@
 
 @import-normalize;
 
-* {
-  outline: 1px solid indianred;
-  outline-offset: -1px;
-}
-
 .app {
   display: flex;
   flex-direction: column;
