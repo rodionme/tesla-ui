@@ -1,3 +1,14 @@
 .main-content {
+  position: relative;
   width: calc(1340px * var(--coef));
+}
+
+.main-content__status-bar {
+  position: absolute;
+  width: 100%;
+  height: calc(70px * var(--coef));
+}
+
+.main-content__map {
+  height: 100%;
 }
