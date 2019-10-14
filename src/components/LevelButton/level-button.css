@@ -1,0 +1,38 @@
+.level-button {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.level-button__toggle {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.level-button__toggle--up {
+  top: 0;
+}
+
+.level-button__toggle--up .icon {
+  margin-top: calc(-16px * var(--coef));
+}
+
+.level-button__toggle--down {
+  bottom: 0;
+}
+
+.level-button__toggle--down .icon {
+  margin-bottom: calc(-16px * var(--coef));
+}
+
+.level-button__indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  font-size: calc(50px * var(--coef));
+}

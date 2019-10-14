@@ -1,4 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   --coef: .5;
   margin: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.horizontally-flipped {
+  transform: scaleX(-1);
+}
+
+.vertically-flipped {
+  transform: scaleY(-1);
 }
