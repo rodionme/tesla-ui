@@ -1,0 +1,3 @@
+.main-sidebar {
+  width: calc(580px * var(--coef));
+}

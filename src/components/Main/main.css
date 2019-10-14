@@ -1,0 +1,3 @@
+.main-content {
+  width: calc(1340px * var(--coef));
+}

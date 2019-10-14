@@ -1,0 +1,3 @@
+.control-bar {
+  height: calc(120px * var(--coef));
+}

@@ -1,1 +1,39 @@
+/*
+  thin 100
+  extra-light 200
+  light 300
+  regular 400
+  medium 500
+  semi-bold 600
+  bold 700
+  extra-bold 800
+  black 900
+*/
+
 @import-normalize;
+
+* {
+  outline: 1px solid indianred;
+  outline-offset: -1px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: calc(1920px * var(--coef));
+  height: calc(1200px * var(--coef));
+  font-weight: 500;
+  font-size: calc(20px * var(--coef));
+  font-family: "Montserrat", sans-serif;
+}
+
+.app__content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.app__sidebar {}
+
+.app__main {}
+
+.app__control-bar {}
